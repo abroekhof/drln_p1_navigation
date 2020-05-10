@@ -43,6 +43,6 @@ The agent achieved 100-episode average score of 15 in 617 episodes. Results of t
 
 ## Future work
 
-I attempted to incorporate the prioritized recall for the replay buffer, in particular the rank-based method, however quickly got bogged down in implementation details. It turns out that the implementation strongly affects the running time, as calculating the probabilities for the experiences is the dominating component. OpenAI has implemented a variant of prioritized replay, which might be a faster way to get it working.
+I attempted to incorporate the prioritized recall for the replay buffer, in particular the rank-based method, however quickly got bogged down in implementation details (see the `prioritized` branch). It turns out that the implementation strongly affects the running time, as calculating the probabilities for the experiences is the dominating component. OpenAI has implemented a variant of prioritized replay, which might be a faster way to get it working.
 
 I did not attempt dueling or double DQN methods, but they would be obvious next steps.
