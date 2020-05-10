@@ -37,7 +37,7 @@ Once the weights have been optimized for this batch of samples, the parameters f
 
 ## Results
 
-The agent achieved 100-episode average score of 15 in 617 episodes
+The agent achieved 100-episode average score of 15 in 617 episodes. Results of the training are stored in `checkpoint.pth`
 
 ![Plot of rewards](./img/score.png)
 
